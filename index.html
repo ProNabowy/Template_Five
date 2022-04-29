@@ -3,6 +3,7 @@
     <head>
         <head>
             <meta charset="UTF-8">
+            <meta name="description" content="Website Speed Test and Website Analysis">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0">
@@ -21,12 +22,14 @@
             <link
                 href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;700;900&family=Open+Sans:wght@400;600;800&display=swap"
                 rel="stylesheet">
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
             <title>ProNabowy</title>
         </head>
     </head>
     <body>
         <header>
-            <div class="container Flex">
+            <div class="container">
                 <div class="logo">
                     <i class="far fa-clock"></i>
                     <div class="text">
@@ -34,24 +37,25 @@
                         <p>by ProNabowy</p>
                     </div>
                 </div>
-                <div class="list">
+                <input type="checkbox" id="check">
+                <label for="check">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </label>
+                <div class="links">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Custmoers</a></li>
-                        <li><img
-                                src="./Photos/vector-image-american-flag-260nw-157626554.webp"
-                                alt=""></li>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Features">Features</a></li>
+                        <li><a href="#Custmoers">Custmoers</a></li>
+                        <li><a href="#Contact">Contact Us</a></li>
+                        <li><a href="#performance">Performance</a></li>
                     </ul>
                 </div>
-                <form action="">
-                    <label for="">Login</label>
-                    <input type="submit" value="Sign up">
-                </form>
-            </div>
+        <form action="https://www.facebook.com/elngmadle/" target="_blank">
+            <label for="">Login</label>
+            <input type="submit" value="Sign up">
+        </form>
         </header>
-        <!-- Start Speed Test -->
-        <div class="Speed BackGround">
+        <section class="Speed BackGround" id="Home">
             <div class="container">
                 <div class="text">
                     <h3>Website Speed Test and Website Analysis</h3>
@@ -67,10 +71,8 @@
                     </form>
                 </div>
             </div>
-        </div>
-        <!-- End Speed Test  -->
-        <!-- Start Report -->
-        <div class="Report">
+        </section>
+        <section class="Report" id="Contact">
             <div class="container Flex">
                 <div class="text">
                     <h3>An insightful audit of
@@ -83,10 +85,8 @@
                     <img src="./Photos/Capture.PNG" alt="">
                 </div>
             </div>
-        </div>
-        <!-- End Report -->
-        <!-- Start Monitoring -->
-        <div class="Monitoring BackGround">
+        </section>
+        <section class="Monitoring BackGround" id="Features">
             <div class="container Flex">
                 <div class="imge">
                     <img src="./Photos/Capture1.PNG" alt="">
@@ -101,10 +101,8 @@
                     <button class="Button"><a href="#">Website Monitoring</a></button>
                 </div>
             </div>
-        </div>
-        <!-- End Monitoring -->
-        <!-- Start Comparison -->
-        <div class="Comparison">
+        </section>
+        <section class="Comparison" id="Custmoers">
             <div class="container Flex">
                 <div class="text">
                     <h3>Website Speed Comparison</h3>
@@ -122,10 +120,8 @@
                     <p>Website Speed Comparison Report</p>
                 </div>
             </div>
-        </div>
-        <!-- End Comparison -->
-        <!-- Start performance  -->
-        <div class="performance BackGround">
+        </section>
+        <section class="performance BackGround" id="performance">
             <div class="container">
                 <div class="icone">
                     <i class="fas fa-angle-double-left"></i>
@@ -151,9 +147,7 @@
                     <button class="Button"><a href="#">Request a demo</a></button>
                 </div>
             </div>
-        </div>
-        <!-- End performance  -->
-        <!-- Start Footer -->
+        </section>
         <footer>
             <div class="parent-of-container">
                 <div class="container">
@@ -213,5 +207,4 @@
                     Conditions </a> (updated the 27/10/2021)
             </div>
         </footer>
-        <!-- End Footer -->
     </body>
